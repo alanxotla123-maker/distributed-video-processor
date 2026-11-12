@@ -1,13 +1,3 @@
-"""
-Parte 2: Broker - Gestión de Nodos y Reparto (Servidor Principal)
-Incisos cubiertos: a, d, g, h, i
-
-Responsabilidades:
-- Registro (alta) de nodos trabajadores (mínimo 3).
-- Control de nodos conectados activos y tolerancia a desconexiones.
-- Reparto concurrente y balanceado de fotogramas mediante hilos (threading).
-- Cola thread-safe para distribución de tareas y recolección de resultados.
-"""
 
 import socket
 import threading
